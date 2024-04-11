@@ -1,9 +1,15 @@
 body {
-    /* background-image: url(../img/65646-OBSNYR-527-demeter.jpg); */
+    height: 100vh;
+    background-image: url(../img/background.jpg);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 }
 
 ul {
     list-style-type: none;
+}
+
+.hanged {
+    height: 300px;
 }

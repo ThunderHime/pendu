@@ -9,45 +9,43 @@
     <title>Le Pendu</title>
 </head>
 
-<body>
+<body class="text-light">
     <main>
         <div class="container">
             <div class="row">
                 <div class="col">
+                    <div class="d-flex d-flex-row justify-content-center">
+                    <h4 id="resultGameContainer"></h4>
+                    <div class="flex-grow-1"></div>
+                    <button type="button" id="buttonReplay" class="btn btn-primary d-none">Rejouer ?</button>
+                    </div>
                     <form id="formChoice" class="d-flex">
-                        <input type="text" class="form-control" id="inputUserChoice" maxlength="1" required />
+                       <input type="text" class="form-control" id="inputUserChoice" maxlength="1" required />
                         <button type="submit" id="buttonValidChoice" class="btn btn-primary">Valider</button>
                     </form>
                 </div>
             </div>
-            <div class="row d-flex-column justify-content-center align-items-center">
-                <div class="col d-flex-column">
+            <div class="row">
+                <div class="d-flex d-flex-row justify-content-between">
+                    <h2 id="errorCounterContainer" class="text-center bg-danger rounded-2"></h2>
+                    <h3 id="archivedUserChoicesContainer" class="text-center bg-warning rounded-2"></h3>
+                </div>
+            </div>
+            <div class="row d-flex-column justify-content-center align-items-center text-light">
+                <div class="col">
                     <h1 id="wordContainer" class="text-center"></h1>
-                    <h2 id="errorCounterContainer" class="text-center"></h2>
-                    <div class="hanged">
-                        <img src="public/assets/img/poteau_edited-removebg-preview.png" id="error-1" height="100" width="20" class="d-none"/>
-                        
-                        <img src="public/assets/img/poteau_edited-removebg-preview.png" id="error-2" height="100" width="20" class="d-none"/>
-                        
-                        <img src="public/assets/img/poteau_edited-removebg-preview.png" id="error-3" height="100" width="20" class="d-none"/>
-                        
-                        <img src="public/assets/img/poteau_edited-removebg-preview.png" id="error-4" height="100" width="20" class="d-none"/>
-                        
-                        <img src="public/assets/img/poteau_edited-removebg-preview.png" id="error-5" height="100" width="20" class="d-none"/>
-                        
-                        <img src="public/assets/img/poteau_edited-removebg-preview.png" id="error-6" height="100" width="20" class="d-none"/>
-                        
-                        <img src="public/assets/img/poteau_edited-removebg-preview.png" id="error-7" height="100" width="20" class="d-none"/>
-                        
-                        <img src="public/assets/img/poteau_edited-removebg-preview.png" id="error-8" height="100" width="20" class="d-none"/>
-                        
-                        <img src="public/assets/img/poteau_edited-removebg-preview.png" id="error-9" height="100" width="20" class="d-none"/>
-                    
-                        <img src="public/assets/img/poteau_edited-removebg-preview.png" id="error-10" height="100" width="20" class="d-none"/>
+                    <div class="container" style="height: 30%; width: 50%;">
+                        <img src="public/assets/img/hang1.png" id="error-1" class="d-none img-fluid" />
+                        <img src="public/assets/img/hang2.png" id="error-2" class="d-none img-fluid" />
+                        <img src="public/assets/img/hang3.png" id="error-3" class="d-none img-fluid" />
+                        <img src="public/assets/img/hang4.png" id="error-4" class="d-none img-fluid" />
+                        <img src="public/assets/img/hang5.png" id="error-5" class="d-none img-fluid" />
+                        <img src="public/assets/img/hang6.png" id="error-6" class="d-none img-fluid" />
+                        <img src="public/assets/img/hang7.png" id="error-7" class="d-none img-fluid" />
+                        <img src="public/assets/img/hang8.png" id="error-8" class="d-none img-fluid" />
+                        <img src="public/assets/img/hang9.png" id="error-9" class="d-none img-fluid" />
+                        <img src="public/assets/img/hang10.png" id="error-10" class="d-none img-fluid" />
                     </div>
-                    <h3 id="archivedUserChoicesContainer" class="text-center"></h3>
-                    <h4 id="resultGameContainer"></h4>
-                    <button type="button" id="buttonReplay" class="btn btn-primary d-none">Rejouer ?</button>
                 </div>
             </div>
         </div>
