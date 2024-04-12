@@ -11,8 +11,20 @@ ul {
 }
 
 .hanged {
-    height: 60% !important;
-    width: 100% !important;
-    max-height: 320px !important;
-    max-width: 480px !important;
+    height: 60%;
+    width: 100%;
+    max-height: 320px;
+    max-width: 480px;
+}
+
+.displayCount {
+    background-color: #9ba4da80;
+}
+
+#wordContainer {
+    background-color: #9ba4da80;
+}
+
+button {
+    background-color: #ffee04ab !important;
 }

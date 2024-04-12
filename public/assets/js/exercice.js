@@ -84,7 +84,7 @@ function isWin() {
 function refreshInterface() {
     wordContainer.innerHTML = result.join(" ");
     errorCounterContainer.innerHTML = errorCounter;
-    archivedUserChoicesContainer.innerHTML = archivedUserChoices.join(" | ");
+    archivedUserChoicesContainer.innerHTML = archivedUserChoices.join(" . ");
     if (errorCounter > 0) {
         const errorElement = document.querySelector(`#error-${errorCounter}`);
         errorElement.classList.remove("d-none");
