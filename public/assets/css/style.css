@@ -1,4 +1,5 @@
 body {
+    font-family: 'Bangers', sans-serif;
     height: 100vh;
     background-image: url(../img/background.jpg);
     background-repeat: no-repeat;
@@ -26,5 +27,5 @@ ul {
 }
 
 button {
-    background-color: #ffee04ab !important;
+    background-color: #f20edb78 !important;
 }

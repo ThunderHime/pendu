@@ -51,12 +51,12 @@ function submitUserChoice(event) {
     }
 
     if (isLose()) {
-        resultGameContainer.innerHTML = "Vous avez perdu.";
+        resultGameContainer.innerHTML = "Vous avez perdu";
         formChoice.classList.add("d-none");
         buttonReplay.classList.remove("d-none");
         result = randomWordArray;
     } else if (isWin()) {
-        resultGameContainer.innerHTML = "Vous avez gagné.";
+        resultGameContainer.innerHTML = "Vous avez gagné";
         formChoice.classList.add("d-none");
         buttonReplay.classList.remove("d-none");
     }
