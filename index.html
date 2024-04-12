@@ -18,53 +18,46 @@
     <main>
         <div class="container">
             <div class="row">
-                <div class="col mt-2">
-                    <div class="d-flex d-flex-row justify-content-center">
-                        <h4 class="fs-2 m-4" id="resultGameContainer"></h4>
+                <div class="col-12 mt-2">
+                    <div class="d-flex justify-content-center">
+                        <h4 class="fs-2" id="resultGameContainer"></h4>
                         <form id="formChoice" class="d-flex my-5">
                             <input type="text" class="form-control" id="inputUserChoice" maxlength="1" required />
                             <button type="submit" id="buttonValidChoice" class="btn text-light fs-4">VALIDER</button>
                         </form>
                     </div>
-                    <div class="container d-flex-column justify-content-center">
-                        <div class="row justify-content-center">
-                            <div class="col col-12 displayCount rounded-2 mb-4">
-                                <div class="d-flex d-flex-row justify-content-between pt-2">
-                                    <p class="fs-3">Erreurs : </p>
-                                    <h2 id="errorCounterContainer" class="text-center rounded-2"></h2>
-                                </div>
-                                <div>
-                                    <h3 id="archivedUserChoicesContainer" class="text-center rounded-2"></h3>
-                                </div>
-                            </div>
-                        </div>
+                </div>
+                <div class="col-12 displayCount">
+                    <div class="row">
+                        <div class="col-6"><p class="fs-3 text-center">Erreurs :<span id="errorCounterContainer" class=""></span></p></div>
+                        <div class="col-6"><h3 id="archivedUserChoicesContainer" class="text-center"></h3></div>
                     </div>
-                    <div class="row d-flex-column justify-content-center align-items-center">
-                        <div class="col">
-                            <div class="">
-                                <h1 id="wordContainer" class="text-center rounded-2 mt-3"></h1>
-                            </div>
-                            <div class="d-flex justify-content-center align-items-center">
-                                <button type="button" id="buttonReplay"
-                                    class="btn btn-lg d-none text-light mt-2">REJOUER
-                                    ?</button>
-                            </div>
-                        </div>
-                        <div class="container hanged">
-                            <img src="public/assets/img/hang1.png" id="error-1" class="d-none img-fluid" />
-                            <img src="public/assets/img/hang2.png" id="error-2" class="d-none img-fluid" />
-                            <img src="public/assets/img/hang3.png" id="error-3" class="d-none img-fluid" />
-                            <img src="public/assets/img/hang4.png" id="error-4" class="d-none img-fluid" />
-                            <img src="public/assets/img/hang5.png" id="error-5" class="d-none img-fluid" />
-                            <img src="public/assets/img/hang6.png" id="error-6" class="d-none img-fluid" />
-                            <img src="public/assets/img/hang7.png" id="error-7" class="d-none img-fluid" />
-                            <img src="public/assets/img/hang8.png" id="error-8" class="d-none img-fluid" />
-                            <img src="public/assets/img/hang9.png" id="error-9" class="d-none img-fluid" />
-                            <img src="public/assets/img/hang10.png" id="error-10" class="d-none img-fluid" />
-                        </div>
+                
+                </div>
+                <div class="col-12 col-sm-6">
+                    <h1 id="wordContainer" class="text-center rounded-2 mt-3"></h1>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <button type="button" id="buttonReplay" class="btn btn-lg d-none text-light mt-2">REJOUER
+                            ?</button>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <div class="hanged">
+                        <img src="public/assets/img/image0.png" id="image0" class="d-none">
+                        <img src="public/assets/img/hang1.png" id="error-1" class="d-none img-fluid" />
+                        <img src="public/assets/img/hang2.png" id="error-2" class="d-none img-fluid" />
+                        <img src="public/assets/img/hang3.png" id="error-3" class="d-none img-fluid" />
+                        <img src="public/assets/img/hang4.png" id="error-4" class="d-none img-fluid" />
+                        <img src="public/assets/img/hang5.png" id="error-5" class="d-none img-fluid" />
+                        <img src="public/assets/img/hang6.png" id="error-6" class="d-none img-fluid" />
+                        <img src="public/assets/img/hang7.png" id="error-7" class="d-none img-fluid" />
+                        <img src="public/assets/img/hang8.png" id="error-8" class="d-none img-fluid" />
+                        <img src="public/assets/img/hang9.png" id="error-9" class="d-none img-fluid" />
+                        <img src="public/assets/img/hang10.png" id="error-10" class=" img-fluid" />
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </main>
     <script src="./public/assets/js/exercice.js"></script>

@@ -88,13 +88,17 @@ function refreshInterface() {
     if (errorCounter > 0) {
         const errorElement = document.querySelector(`#error-${errorCounter}`);
         errorElement.classList.remove("d-none");
+        const image0 = document.getElementById("image0");
+        image0.classList.add("d-none");
+        // image0.classList.remove("d-none");
         if (errorCounter > 1) {
             const errorImages = document.querySelector(`#error-${errorCounter - 1}`);
             errorImages.classList.add("d-none");
+            // image0.classList.add("d-none");
         }
     }
 }
-
+console.log(image0);
 //funcion to manage the start
 function startGame() {
     randomWord = random(words).toUpperCase();
@@ -106,7 +110,7 @@ function startGame() {
     errorCounter = 0;
     archivedUserChoices = [];
 
-    console.log(randomWord);
+    // console.log(randomWord);
     for (let i = 1; i <= 10; i++) {
         const errorElement = document.querySelector(`#error-${i}`);
         errorElement.classList.add("d-none");
