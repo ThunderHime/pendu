@@ -3,14 +3,29 @@
     "name": "Le jeu du pendu",
     "icons": [
         {
-            "src": "favicon.ico",
+            "src": "./public.ico",
             "sizes": "48x48",
+            "type": "image/ico"
+        },
+        {
+            "src": "favicon.ico",
+            "sizes": "72x72",
+            "type": "image/ico"
+        },
+        {
+            "src": "favicon.ico",
+            "sizes": "96x96",
+            "type": "image/ico"
+        },
+        {
+            "src": "favicon.ico",
+            "sizes": "144x144",
             "type": "image/ico"
         }
     ],
-    "start_url": "/index.html",
+    "start_url": "/",
     "background-color": "#000",
-    "display": "standalone",
+    "display": "fullscreen",
     "scope": "/",
     "theme_color": "#888"
 }
